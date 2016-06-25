@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'firebase' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json react-starter@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'firebase@^2.4.0', null ]
+7 verbose cache add name=undefined spec="firebase@^2.4.0" args=["firebase@^2.4.0",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'firebase@^2.4.0',
+8 verbose parsed url   path: 'firebase@^2.4.0',
+8 verbose parsed url   href: 'firebase@^2.4.0' }
+9 verbose cache add name="firebase" spec="^2.4.0" args=["firebase","^2.4.0"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '^2.4.0',
+10 verbose parsed url   path: '^2.4.0',
+10 verbose parsed url   href: '^2.4.0' }
+11 verbose addNamed [ 'firebase', '^2.4.0' ]
+12 verbose addNamed [ null, '>=2.4.0-0 <3.0.0-0' ]
+13 silly lockFile 1fac992d-firebase-2-4-0 firebase@^2.4.0
+14 verbose lock firebase@^2.4.0 /Users/ash_skywalker10/.npm/1fac992d-firebase-2-4-0.lock
+15 silly addNameRange { name: 'firebase', range: '>=2.4.0-0 <3.0.0-0', hasData: false }
+16 verbose url raw firebase
+17 verbose url resolving [ 'https://registry.npmjs.org/', './firebase' ]
+18 verbose url resolved https://registry.npmjs.org/firebase
+19 info trying registry request attempt 1 at 22:43:56
+20 verbose etag "3I2CWMYJ9PT98A2MNZPWRQ8MX"
+21 http GET https://registry.npmjs.org/firebase
+22 http 304 https://registry.npmjs.org/firebase
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Sat, 25 Jun 2016 12:41:46 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     etag: '"3I2CWMYJ9PT98A2MNZPWRQ8MX"',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1466858506.689818,VS0,VE722',
+23 silly registry.get     vary: 'Accept-Encoding' } ]
+24 verbose etag firebase from cache
+25 silly addNameRange number 2 { name: 'firebase', range: '>=2.4.0-0 <3.0.0-0', hasData: true }
+26 silly addNameRange versions [ 'firebase',
+26 silly addNameRange   [ '0.0.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.2',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.5.4',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.6.3',
+26 silly addNameRange     '0.6.4',
+26 silly addNameRange     '0.6.5',
+26 silly addNameRange     '0.6.6',
+26 silly addNameRange     '0.6.7',
+26 silly addNameRange     '0.6.8',
+26 silly addNameRange     '0.6.9',
+26 silly addNameRange     '0.6.10',
+26 silly addNameRange     '0.6.11',
+26 silly addNameRange     '0.6.14',
+26 silly addNameRange     '0.6.15',
+26 silly addNameRange     '0.6.16',
+26 silly addNameRange     '0.6.17',
+26 silly addNameRange     '0.6.19',
+26 silly addNameRange     '0.6.21',
+26 silly addNameRange     '0.6.22',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.1-npm',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.0.4',
+26 silly addNameRange     '1.0.5',
+26 silly addNameRange     '1.0.10',
+26 silly addNameRange     '1.0.10-2',
+26 silly addNameRange     '1.0.11',
+26 silly addNameRange     '1.0.12',
+26 silly addNameRange     '1.0.13',
+26 silly addNameRange     '1.0.14',
+26 silly addNameRange     '1.0.15',
+26 silly addNameRange     '1.0.15-2',
+26 silly addNameRange     '1.0.15-3',
+26 silly addNameRange     '1.0.17',
+26 silly addNameRange     '1.0.18',
+26 silly addNameRange     '1.0.19',
+26 silly addNameRange     '1.0.20',
+26 silly addNameRange     '1.0.21',
+26 silly addNameRange     '1.0.23',
+26 silly addNameRange     '1.0.24',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.1.1',
+26 silly addNameRange     '1.1.2',
+26 silly addNameRange     '1.2.0-beta.1-0',
+26 silly addNameRange     '1.2.0-beta.2',
+26 silly addNameRange     '1.1.3',
+26 silly addNameRange     '1.2.0-beta.3',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.4',
+26 silly addNameRange     '2.0.5',
+26 silly addNameRange     '2.0.6',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.1.2',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '2.2.1',
+26 silly addNameRange     '2.2.2',
+26 silly addNameRange     '2.2.3',
+26 silly addNameRange     '2.2.4',
+26 silly addNameRange     '2.2.5',
+26 silly addNameRange     '2.2.6',
+26 silly addNameRange     '2.2.7',
+26 silly addNameRange     '2.2.8',
+26 silly addNameRange     '2.2.9',
+26 silly addNameRange     '2.3.0',
+26 silly addNameRange     '2.3.1',
+26 silly addNameRange     '2.3.2',
+26 silly addNameRange     '2.4.0',
+26 silly addNameRange     '2.4.1',
+26 silly addNameRange     '2.4.2',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.0.2',
+26 silly addNameRange     '3.0.3',
+26 silly addNameRange     '3.0.4',
+26 silly addNameRange     '3.0.5' ] ]
+27 verbose addNamed [ 'firebase', '2.4.2' ]
+28 verbose addNamed [ '2.4.2', '2.4.2' ]
+29 silly lockFile d6381efc-firebase-2-4-2 firebase@2.4.2
+30 verbose lock firebase@2.4.2 /Users/ash_skywalker10/.npm/d6381efc-firebase-2-4-2.lock
+31 silly lockFile f98607b9--org-firebase-firebase-2-4-2-tgz https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+32 verbose lock https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz /Users/ash_skywalker10/.npm/f98607b9--org-firebase-firebase-2-4-2-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz',
+33 verbose addRemoteTarball   '4e1119ec0396ca561d8a7acbff1630feac6c0a31' ]
+34 info retry fetch attempt 1 at 22:43:58
+35 verbose fetch to= /var/folders/4m/wkdh_b2s4td7j0fdh6qgpfkr0000gn/T/npm-10844-D7I7RaCr/registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+36 http GET https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+37 http 200 https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+38 silly lockFile f98607b9--org-firebase-firebase-2-4-2-tgz https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+39 silly lockFile f98607b9--org-firebase-firebase-2-4-2-tgz https://registry.npmjs.org/firebase/-/firebase-2.4.2.tgz
+40 silly lockFile d6381efc-firebase-2-4-2 firebase@2.4.2
+41 silly lockFile d6381efc-firebase-2-4-2 firebase@2.4.2
+42 silly lockFile 1fac992d-firebase-2-4-0 firebase@^2.4.0
+43 silly lockFile 1fac992d-firebase-2-4-0 firebase@^2.4.0
+44 error Error: EACCES, mkdir '/Users/ash_skywalker10/.npm/firebase/2.4.2'
+44 error  { [Error: EACCES, mkdir '/Users/ash_skywalker10/.npm/firebase/2.4.2']
+44 error   errno: 3,
+44 error   code: 'EACCES',
+44 error   path: '/Users/ash_skywalker10/.npm/firebase/2.4.2',
+44 error   parent: 'react-starter' }
+45 error Please try running this command again as root/Administrator.
+46 error System Darwin 15.4.0
+47 error command "node" "/usr/local/bin/npm" "install" "--save" "firebase"
+48 error cwd /Users/ash_skywalker10/Development/ReactStarter
+49 error node -v v0.10.29
+50 error npm -v 1.4.14
+51 error path /Users/ash_skywalker10/.npm/firebase/2.4.2
+52 error code EACCES
+53 error errno 3
+54 error stack Error: EACCES, mkdir '/Users/ash_skywalker10/.npm/firebase/2.4.2'
+55 verbose exit [ 3, true ]
