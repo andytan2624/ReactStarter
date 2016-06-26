@@ -1,14 +1,22 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactFire = require('reactfire');
-var Firebase = require('firebase');
+var firebase = require('firebase');
 var Header = require('./header');
-var rootUrl = 'https://reactstarter-706a8.firebaseio.com/';
+
+var config = {
+    apiKey: "AIzaSyBaWy34TdwS7v7rfzI5khc1sWyrWNRF5RY",
+    authDomain: "reactstarter-706a8.firebaseapp.com",
+    databaseURL: "https://reactstarter-706a8.firebaseio.com",
+    storageBucket: "reactstarter-706a8.appspot.com",
+};
+firebase.initializeApp(config);
 
 var App = React.createClass({
     mixins: [ReactFire],
     componentWillMount: function() {
-        this.bindAsObject(new Firebase(rootUrl + 'items/'), 'items')
+        var firebaseRefs = firebase.database().ref('todoApp/items');
+        this.bindAsArray(firebaseRefs.limitToLast(25), 'items');
     },
     render: function () {
         return <div className="row panel panel-default">
@@ -16,7 +24,7 @@ var App = React.createClass({
                 <h2 className="text-center">
                     To-Do List
                 </h2>
-                <Header />
+                <Header items={this.state.items} />
             </div>
         </div>
     }
